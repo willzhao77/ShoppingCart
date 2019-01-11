@@ -1,0 +1,15 @@
+CREATE TABLE IF NOT EXISTS `products` (
+  `id` int(10) NOT NULL AUTO_INCREMENT,
+  `name` varchar(60) NOT NULL,
+  `image` varchar(60) NOT NULL,
+  `price` decimal(10,2) NOT NULL,
+  PRIMARY KEY (`id`)
+) AUTO_INCREMENT=1 ;
+
+
+INSERT INTO `products` VALUES
+(1, 'Mobile', 'mobile.jpg', 800),
+(2, 'Laptop', 'laptop.jpg', 1200),
+(3, 'Camera', 'camera.jpg', 600)
+
+
